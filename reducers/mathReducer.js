@@ -1,0 +1,12 @@
+const mathReducer = ( state = 0, action ) => {
+	switch( action.type ) {
+		case "INCREMENT":
+			return state+action.payload;	
+		case "DECREMENT":
+			return state-action.payload;	
+	}
+
+	return state;
+}
+
+export default mathReducer;
