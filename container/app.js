@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import MathOperations from '../container/MathOperations';
+import MathOperations from '../components/MathOperations';
 import { Jumbotron, Button } from 'react-bootstrap';
 
 class App extends React.Component{
